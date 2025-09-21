@@ -1,0 +1,14 @@
+:root{--bg: white;--card:red;--accent:white}
+*{box-sizing:border-box}
+body{
+  margin:0; font-family:Inter,Arial,Helvetica,sans-serif;
+  background:linear-gradient(180deg,#0f0f13 0%,var(--bg) 100%);
+  color:#fff; min-height:100vh; display:flex; align-items:center; justify-content:center;
+}
+.container{width:360px; padding:24px; background:skyblue; border-radius:12px; text-align:center}
+.display{font-size:28px; padding:20px; background:#111; border-radius:8px; margin:16px 0; letter-spacing:1px}
+.controls{display:flex; gap:8px; justify-content:center; flex-wrap:wrap}
+button{padding:10px 12px; border-radius:8px; border:none; cursor:pointer; background:yellow; color:black; font-weight:600}
+button:hover{transform:translateY(-2px)}
+.laps{list-style:none; padding:0; margin-top:14px; max-height:160px; overflow:auto}
+.laps li{background:#222; margin:6px 0; padding:8px 10px; border-radius:6px; text-align:left}
